@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3CW2</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="data.js"></script> 	
+</head>
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    	<header class="masthead mb-auto">
+    		<div class="inner">
+    			<h3 class="class_name">3CW2</h3>
+    			<nav class="nav nav-masthead justify-content-center">
+    				<a class="nav-link active" href="#">Home</a>
+    				<a class="nav-link" href="member.html">Member</a>
+    				<a class="nav-link" href="#">community</a>
+    			</nav>
+    		</div>
+    	</header>
+        <form autocomplete="off">
+            <div class="autocomplete" style="width:300px;">
+                <input id="search" type="text" name="myCountry" placeholder="Name">
+            </div>
+            <input name="Button" id="btn" type="button" value="search" onClick="call_data()">
+        </form>
+
+        <span id="mySpan1"></span>
+        <span id="mySpan2"></span>
+    
+    <script src="autocomplete.js"></script>   	
+    </div>
+</body>
+</html>
